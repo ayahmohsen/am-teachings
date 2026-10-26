@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   authors: [{ name: "Aya Mohsen" }],
   creator: "AM Teachings",
   publisher: "AM Teachings",
-  metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(process.env.SITE_URL || "https://amteachings.ayamohsen.com"),
   openGraph: {
     title: "AM Teachings | English & IELTS Excellence",
     description:
       "Learn General English, Spoken English, and IELTS preparation with Aya Mohsen. American Diploma holder with IELTS 8.0 score.",
-    url: process.env.SITE_URL || "http://localhost:3000",
+    url: process.env.SITE_URL || "https://amteachings.ayamohsen.com",
     siteName: "AM Teachings",
     images: [
       {

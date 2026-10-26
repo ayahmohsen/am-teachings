@@ -39,8 +39,8 @@ export default function Home() {
     name: "AM Teachings",
     description:
       "General English, Spoken English, and IELTS preparation with Aya Mohsen",
-    url: process.env.SITE_URL || "https://amteachings.com",
-    logo: `${process.env.SITE_URL || "https://amteachings.com"}/logo.png`,
+    url: process.env.SITE_URL || "https://amteachings.ayamohsen.com",
+    logo: `${process.env.SITE_URL || "https://amteachings.ayamohsen.com"}/logo.png`,
     founder: {
       "@type": "Person",
       name: "Aya Mohsen",
